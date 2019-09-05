@@ -65,6 +65,7 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive androidboot.veritymode=ei
 TARGET_BOARD_PLATFORM := msm8998
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PHONY_TARGETS := true
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
